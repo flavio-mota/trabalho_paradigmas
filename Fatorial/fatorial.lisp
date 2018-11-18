@@ -1,5 +1,5 @@
- (defun factorial (n)
+ (defun fatorial (n)
    (if (<= n 1)
-       1 (* n (factorial (- n 1)))
+       1 (* n (fatorial (- n 1)))
    )
  )
